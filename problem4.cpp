@@ -6,7 +6,7 @@ protected:
     int energy=50;
 
 public:
-    Animal() : energy() {}
+    
 
     void sleep() {
         cout << "I'm sleeping" << endl;
@@ -45,12 +45,12 @@ int main() {
     Dog dog1("Max");
     for(int i = 4; i < 9; i++) {
         dog1.sleep(); 
-        dog1.run();   
+        dog1.run(); }  
         dog1.eat();  
         dog1.bark(); 
 
         
-    }
+   
      cout << dog1.getEnergy() << endl;
     return 0;
 }
