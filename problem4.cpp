@@ -49,8 +49,8 @@ int main() {
         dog1.eat();  
         dog1.bark(); 
 
-        cout << dog1.getEnergy() << endl;
+        
     }
-
+     cout << dog1.getEnergy() << endl;
     return 0;
 }
