@@ -3,10 +3,10 @@ using namespace std;
 
 class Animal {
 protected:
-    int energy;
+    int energy=50;
 
 public:
-    Animal() : energy(50) {}
+    Animal() : energy() {}
 
     void sleep() {
         cout << "I'm sleeping" << endl;
